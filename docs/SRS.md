@@ -68,3 +68,96 @@ Current challenges include:
 The proposed AI Enterprise Knowledge Assistant solves these challenges by providing an intelligent question-answering platform. Employees can ask questions in simple English, and the system retrieves relevant information from enterprise documents and generates accurate answers with document references.
 
 This solution improves productivity, reduces manual effort, speeds up knowledge retrieval, and helps employees make faster and more informed decisions.
+
+# 4. Objectives
+
+The primary objective of the AI Enterprise Knowledge Assistant is to provide employees with quick, accurate, and easy-to-understand answers from enterprise documents using Artificial Intelligence.
+
+The project aims to achieve the following objectives:
+
+* Provide accurate answers to employee queries based on enterprise documents.
+* Generate simple and easy-to-understand responses in natural language.
+* Reduce the time employees spend searching through multiple documents.
+* Improve employee productivity by providing instant access to company knowledge.
+* Display references to the original documents for every generated answer.
+* Provide a user-friendly interface that is easy for employees to use.
+* Build a secure and scalable enterprise knowledge management system.
+* Follow modern software engineering practices for future enhancements.
+
+### Success Criteria
+
+The project will be considered successful if:
+
+* Employees can quickly find answers to their questions.
+* The system generates accurate and relevant responses.
+* Employees use the application regularly during their daily work.
+* Productivity improves by reducing manual document searching.
+* The application provides reliable, real-time responses with document references.
+
+---
+
+# 5. Scope
+
+## Features Included (Version 1 - MVP)
+
+The first version of the application will include the following features:
+
+* User Login and Authentication
+* Secure Document Upload
+* AI-Powered Question Answering
+* Interactive Chat Interface
+* Answers with Document References
+* Admin Dashboard
+* Conversation History
+* Enterprise Document Management
+
+## Features Not Included (Future Enhancements)
+
+The following features are outside the scope of Version 1 and may be added in future releases:
+
+* Voice-based interaction
+* Multi-language support
+* Mobile application
+* Offline AI model
+* Integration with Microsoft Teams, Slack, and other enterprise tools
+* Advanced analytics dashboard
+
+The project scope is limited to building a web-based AI Enterprise Knowledge Assistant capable of answering questions from enterprise documents accurately and efficiently.
+
+---
+
+# 6. Stakeholders
+
+The following stakeholders are involved in the project:
+
+## Company Management
+
+* Approves the project.
+* Provides business requirements.
+* Expects improved organizational productivity and efficient knowledge management.
+
+## Employees
+
+* Primary users of the application.
+* Ask questions related to company documents.
+* Expect quick, accurate, and simple answers.
+
+## HR Team
+
+* Uploads and manages HR-related documents.
+* Expects employees to easily access company policies and procedures.
+
+## System Administrator
+
+* Manages users, documents, and system configurations.
+* Maintains security and overall system performance.
+
+## Development Team
+
+* Designs, develops, tests, and deploys the application.
+* Ensures the system meets both functional and technical requirements.
+
+## Future Maintenance Team
+
+* Monitors the deployed application.
+* Fixes bugs, improves performance, and adds new features based on business needs.
