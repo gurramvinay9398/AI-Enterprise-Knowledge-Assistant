@@ -499,3 +499,83 @@ The system should be:
 * Compatible with the target environment
 
 These requirements will later guide our **architecture, technology choices, implementation, testing, and deployment decisions**.
+
+# 9. Assumptions
+
+Assumptions are conditions that we expect to be true while developing and using the AI Enterprise Knowledge Assistant.
+
+## A-01: Internet Availability
+
+The application is expected to have a stable internet connection because the deployed system and AI services may depend on internet-based resources.
+
+## A-02: Authorized Users
+
+Users are expected to have valid credentials and appropriate permissions to access the application and enterprise information.
+
+## A-03: Valid Enterprise Documents
+
+The company is expected to provide legitimate and relevant documents such as HR policies, SOPs, manuals, and company guidelines.
+
+## A-04: Readable Documents
+
+Uploaded documents are expected to contain readable and extractable information that can be processed by the system.
+
+## A-05: AI Service Availability
+
+The required AI model or API is expected to be available when the system needs to process questions and generate responses.
+
+## A-06: Document Access Permissions
+
+Users are expected to access only documents and information for which they have appropriate authorization.
+
+---
+
+# 10. Constraints
+
+Constraints are limitations or restrictions that can affect the development, deployment, and operation of the application.
+
+## C-01: Development Environment
+
+The project must be developed using technologies and tools that are practical and compatible with the available Windows 8.1 development environment.
+
+## C-02: Limited Local Computing Resources
+
+The development machine has limited computing resources, so running large AI models locally may not be practical.
+
+## C-03: Cloud AI Dependency
+
+Because of local hardware limitations, the application may need to use cloud-based AI models or APIs instead of running large language models locally.
+
+## C-04: Development Time
+
+The project has a limited development period. Therefore, the first release will focus on important core features rather than attempting to build every possible enterprise feature.
+
+## C-05: AI API Usage and Cost
+
+External AI services may have API usage limits, rate limits, or costs that need to be considered during development and deployment.
+
+## C-06: Security and Privacy
+
+Enterprise documents may contain confidential information. The system must prevent unauthorized users from accessing protected documents and information.
+
+## C-07: MVP Scope
+
+The first release will be developed as a Minimum Viable Product (MVP). Advanced features such as voice interaction, mobile applications, and extensive third-party integrations may be considered for future versions.
+
+---
+
+# Assumptions vs Constraints
+
+### Assumption
+Something we **expect to be true**.
+
+Example:
+> Users have internet access.
+
+### Constraint
+Something that **limits what we can do**.
+
+Example:
+> Our Windows 8.1 laptop has limited resources for running large AI models.
+
+Understanding this difference helps us make realistic engineering decisions during system design.
