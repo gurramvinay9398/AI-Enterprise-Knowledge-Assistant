@@ -374,3 +374,128 @@ The implementation decisions will be made later during **System Design**.
 ### Section Outcome
 
 The Functional Requirements define the core behavior of the AI Enterprise Knowledge Assistant and provide a clear bridge between the business requirements and future technical design.
+
+# 8. Non-Functional Requirements
+
+Non-functional requirements describe **how well the AI Enterprise Knowledge Assistant should work**. They focus on qualities such as performance, security, scalability, reliability, usability, maintainability, availability, and data privacy.
+
+---
+
+## NFR-01: Performance
+
+The system should provide responses within a reasonable amount of time under normal operating conditions.
+
+The application should process user queries efficiently and avoid unnecessary delays while retrieving relevant information and generating AI responses.
+
+---
+
+## NFR-02: Security
+
+The system shall protect user accounts, enterprise documents, and application data from unauthorized access.
+
+The system should provide secure authentication, authorization, protected APIs, and appropriate access controls.
+
+---
+
+## NFR-03: Scalability
+
+The system should be designed to support an increasing number of users, documents, and questions without significant degradation in performance.
+
+The architecture should allow additional resources or services to be introduced as the application grows.
+
+---
+
+## NFR-04: Reliability
+
+The system should provide consistent and dependable service during normal operation.
+
+The application should handle errors gracefully and provide meaningful feedback when an operation cannot be completed.
+
+---
+
+## NFR-05: Usability
+
+The application should have a simple and user-friendly interface.
+
+Employees without technical knowledge should be able to log in, ask questions, understand the generated answers, and access document references easily.
+
+---
+
+## NFR-06: Maintainability
+
+The application should be developed using a modular and well-organized architecture.
+
+The codebase and documentation should be easy for developers to understand, modify, debug, and extend with new features.
+
+---
+
+## NFR-07: Availability
+
+The deployed application should be available to authorized users whenever they need to access enterprise knowledge.
+
+The system should minimize downtime and provide appropriate recovery mechanisms when failures occur.
+
+---
+
+## NFR-08: Data Privacy
+
+Enterprise documents and user information must be treated as private and protected data.
+
+The system should ensure that users can only access information they are authorized to access. Sensitive enterprise information should not be unnecessarily exposed through application responses, logs, or other system components.
+
+---
+
+## NFR-09: AI Response Quality
+
+The system should generate answers that are relevant to the user's question and grounded in the available enterprise documents.
+
+When sufficient information cannot be found, the system should avoid presenting unsupported information as a confirmed answer and should communicate the limitation clearly.
+
+---
+
+## NFR-10: Compatibility
+
+The application should be developed and tested using technologies and tools that are practical for the available development environment.
+
+The final web application should work correctly on commonly used modern web browsers.
+
+---
+
+# Functional vs Non-Functional Requirements
+
+### Functional Requirement
+
+Describes **what the system does**.
+
+Example:
+
+> The system shall allow employees to ask questions about enterprise documents.
+
+### Non-Functional Requirement
+
+Describes **how well the system should perform**.
+
+Example:
+
+> The system should provide responses efficiently while maintaining security and reliability.
+
+---
+
+# Section Outcome
+
+The Non-Functional Requirements define the quality standards that the AI Enterprise Knowledge Assistant should meet.
+
+The system should be:
+
+* Secure
+* Fast
+* Reliable
+* Scalable
+* User-friendly
+* Maintainable
+* Available
+* Privacy-focused
+* Responsible in generating AI answers
+* Compatible with the target environment
+
+These requirements will later guide our **architecture, technology choices, implementation, testing, and deployment decisions**.
