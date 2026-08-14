@@ -48,3 +48,19 @@ User Question
 → Context Construction
 → LLM
 → Answer + Source Reference
+
+## RAG Evaluation
+
+The system will be evaluated at multiple stages:
+
+1. Retrieval Quality
+2. Context Relevance
+3. Answer Relevance
+4. Faithfulness / Groundedness
+5. Source Accuracy
+
+Evaluation will use a test dataset containing realistic employee questions, expected information, and document references.
+
+The evaluation process will be iterative:
+
+Test → Measure → Identify Failure → Improve → Test Again
