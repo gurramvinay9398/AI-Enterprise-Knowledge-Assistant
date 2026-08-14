@@ -31,3 +31,20 @@ User Question
 → Apply System Instructions
 → Send Context + Question to LLM
 → Generate Grounded Answer
+
+## Retrieval Strategy
+
+The system will use a retrieval pipeline designed to improve relevance and protect enterprise information.
+
+Conceptual flow:
+
+User Question
+→ Authentication / Permission Check
+→ Metadata Filtering
+→ Semantic and/or Keyword Retrieval
+→ Top-K Candidates
+→ Reranking
+→ Relevance Check
+→ Context Construction
+→ LLM
+→ Answer + Source Reference
