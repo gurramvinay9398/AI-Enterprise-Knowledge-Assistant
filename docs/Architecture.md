@@ -64,3 +64,29 @@ Evaluation will use a test dataset containing realistic employee questions, expe
 The evaluation process will be iterative:
 
 Test → Measure → Identify Failure → Improve → Test Again
+
+## Security Architecture
+
+The system will implement authentication and authorization before document retrieval.
+
+Conceptual flow:
+
+User
+→ Authentication
+→ Authorization / RBAC
+→ Permission Validation
+→ Metadata Filtering
+→ Semantic Retrieval
+→ Allowed Document Chunks
+→ Context Construction
+→ LLM
+→ Grounded Answer
+→ Source Reference
+
+### Security Principles
+
+- Users can only access authorized documents.
+- Authorization should occur before retrieval.
+- Sensitive information should not be unnecessarily exposed.
+- Retrieved documents should be treated as data, not trusted instructions.
+- Important system actions should be logged securely.
