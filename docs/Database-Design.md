@@ -45,3 +45,68 @@ The database will use appropriate PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE, an
 ## Indexing
 
 Indexes will be added to frequently queried columns based on actual application access patterns.
+
+## Detailed Schema
+
+### roles
+
+- id
+- name
+- description
+- created_at
+
+### users
+
+- id
+- name
+- email
+- password_hash
+- role_id
+- is_active
+- created_at
+- updated_at
+
+### documents
+
+- id
+- file_name
+- file_path
+- document_type
+- department
+- uploaded_by
+- status
+- created_at
+- updated_at
+
+### document_permissions
+
+- id
+- document_id
+- role_id
+- access_type
+- created_at
+
+### conversations
+
+- id
+- user_id
+- title
+- created_at
+- updated_at
+
+### messages
+
+- id
+- conversation_id
+- role
+- content
+- created_at
+
+### audit_logs
+
+- id
+- user_id
+- action
+- resource_type
+- resource_id
+- created_at
