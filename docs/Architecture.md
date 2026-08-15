@@ -90,3 +90,31 @@ User
 - Sensitive information should not be unnecessarily exposed.
 - Retrieved documents should be treated as data, not trusted instructions.
 - Important system actions should be logged securely.
+
+Technology Decision Matrix:
+
+| Component      | Options                          | Decision    |
+| -------------- | -------------------------------- | ----------- |
+| Frontend       | HTML/CSS/JS, React               | To evaluate |
+| Backend        | Python/FastAPI, Java/Spring Boot | To evaluate |
+| Database       | SQLite, PostgreSQL               | To evaluate |
+| Vector Search  | Local/Dedicated/PostgreSQL       | To evaluate |
+| LLM            | Cloud/API                        | To evaluate |
+| Embeddings     | Local/API                        | To evaluate |
+| Authentication | JWT/session-based                | To evaluate |
+| Deployment     | Cloud platform                   | To evaluate |
+
+## Technology Selection
+
+Technology decisions will be based on:
+
+- Project requirements
+- Windows 8.1 compatibility
+- Hardware limitations
+- AI/RAG ecosystem
+- Production suitability
+- Cost
+- Maintainability
+- Learning value
+
+No technology will be selected solely because it is currently popular.
