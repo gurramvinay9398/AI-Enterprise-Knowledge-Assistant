@@ -118,3 +118,30 @@ Technology decisions will be based on:
 - Learning value
 
 No technology will be selected solely because it is currently popular.
+
+Initial API List
+
+Authentication
+-------------
+POST /api/auth/register
+POST /api/auth/login
+POST /api/auth/logout
+GET  /api/auth/me
+
+Documents
+---------
+POST   /api/documents/upload
+GET    /api/documents
+GET    /api/documents/{id}
+DELETE /api/documents/{id}
+
+Chat
+----
+POST /api/chat
+
+Conversations
+-------------
+GET    /api/conversations
+POST   /api/conversations
+GET    /api/conversations/{id}
+DELETE /api/conversations/{id}
